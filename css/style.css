@@ -58,27 +58,39 @@ a:visited{
     position: relative;
 }
 
-.overlay{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.titolo-banner{
-    font-size: 28px;
-    position: absolute;
-    left: 1.5em;
-    bottom: 3em;
-    color: white;
-}
-
 .banner > img{
     width: 1500px;
     height: 650px;
     object-fit: cover;
-    /* background-image: url(../img/banner.jpg);
-    background-size: cover;
-    background-position: center; */
     border-radius: .7rem;
+}
 
+.overlay{
+    border-radius: .7rem;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 1500px;
+    height: 650px;
+}
+
+.titolo-banner{
+    width: 50%;
+    font-size: 30px;
+    position: absolute;
+    left: 3rem;
+    top: 25rem;
+    color: white;
+}
+
+.testo-banner{
+    width: 50%;
+    position: absolute;
+    left: 3rem;
+    top: 28rem;
+    color: white;
 }
 
 .container-float{
