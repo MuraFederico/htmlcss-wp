@@ -53,11 +53,30 @@ a:visited{
 }
 
 .banner{
-    max-width: 1500px;
+    width: 1500px;
     height: 650px;
-    background-image: url(../img/banner.jpg);
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.titolo-banner{
+    font-size: 28px;
+    position: absolute;
+    left: 1.5em;
+    bottom: 3em;
+    color: white;
+}
+
+.banner > img{
+    width: 1500px;
+    height: 650px;
+    object-fit: cover;
+    /* background-image: url(../img/banner.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     border-radius: .7rem;
 
 }
