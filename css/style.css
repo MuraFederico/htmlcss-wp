@@ -136,6 +136,7 @@ p{
 
 .left img{
     width: 100%;
+    height: 272px;
     object-fit: cover;
 }
 
@@ -159,7 +160,6 @@ p{
 .center > .title{
     color: black;
     font-size: 20px;
-    margin-top: 26px;
 }
 
 
@@ -177,7 +177,6 @@ p{
 .right > .title{
     color: black;
     font-size: 20px;
-    margin-top: 26px;
 }
 
 footer{
